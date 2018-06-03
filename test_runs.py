@@ -1,11 +1,11 @@
 import sqlutilpy as sqlutil
-import database-config
+import database_config
 # import astrolibpy.utils.sqlutil as sqlutil
 
 def main():
     # Whitespace does not matter
-    username = database-config.username
-    password = database-config.password
+    username = database_config.username
+    password = database_config.password
 
     ra, dec = sqlutil.get(
         """select ra, dec from des_dr1.main where q3c_radial_query(ra,dec,317.2044,-51.1656,1)""",
