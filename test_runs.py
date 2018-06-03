@@ -16,10 +16,13 @@ def main():
     )
 
     # Getting the entire table 
+    # Do not run this...this is too big. this is here for reference
+    """
     something = sqlutil.get(
-        """select * from des_dr1.main""", host="wsdb.hpc1.cs.cmu.edu",
+        "select * from des_dr1.main", host="wsdb.hpc1.cs.cmu.edu",
         user=username, password=password
     )
+    """
 
     print("ra:", ra, "dec:", dec)
     print("ra type:", type(ra), "dec type:", type(dec))
