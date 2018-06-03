@@ -1,4 +1,4 @@
-# The Gaia mission
+# The Gaia mission paper
 
 ## Sections to read:
     1. Scientific goals
