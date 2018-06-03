@@ -3,6 +3,7 @@
 ## Scientific Goals
     * Extremely precise data
     * Micro-arc second resolution
+
 ### Structure, dynamics, and evolution of the galaxy
     * 
 
