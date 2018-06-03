@@ -1,5 +1,5 @@
-# import sqlutil
-import astrolibpy.utils.sqlutil as sqlutil
+import sqlutilpy as sqlutil
+# import astrolibpy.utils.sqlutil as sqlutil
 
 def main():
     ra, dec = sqlutil.get(
