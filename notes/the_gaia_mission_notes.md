@@ -20,8 +20,24 @@
     * From whole spectrum of scientific topics that Gaia can address, the 
     exoplanet researhc area has been the most dynamic in the past two 
     decades
+    * gaia does a great job looking for exoplanets and brown dwarfs
+
+## The Local Group
+    
 
 
+
+# Data processing:
+    * Very complex task, and can be split up into 2 parts:
+        1. Daily
+            * Produce preprocessed data that are needed by cyclic systems
+            * Provide payload health monitoring
+            * Determination of source parameters
+        2. Cyclic
+            * iterates between calibration and determination of source 
+            parameters
+            * Repeatedly processes all of Gaia data until system converges
+                * What does it mean to converge?
 # Important terms:
     * arc second: 
         * An arc second is 1/16th of arc minute, where an arc minute is 
